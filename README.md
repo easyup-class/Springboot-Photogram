@@ -1,5 +1,10 @@
 # 포토그램 - 인스타그램 클론 코딩
 
+### mariadb - ddl update 시에 패킷 용량 초과 문제 해결
+```text
+SET GLOBAL max_allowed_packet=1000000000;
+```
+
 ### 인메모리 DB로 테스트 하는 yml, maven
 
 ```xml
